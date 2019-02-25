@@ -13,4 +13,5 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
    message.delete()
   }
  });
+
 client.login(process.env.BOT_TOKEN);
